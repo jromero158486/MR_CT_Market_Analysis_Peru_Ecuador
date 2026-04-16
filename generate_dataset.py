@@ -260,7 +260,7 @@ top_entidades = (
     .head(20)
 )
 
-# ── Exportar a Excel (listo para Power BI) ─────────────────────────────────
+# ── Exportar a Excel  ─────────────────────────────────
 os.makedirs("data", exist_ok=True)
 output_path = "data/licitaciones_mr_ct.xlsx"
 
@@ -270,7 +270,7 @@ with pd.ExcelWriter(output_path, engine="openpyxl") as writer:
     tendencia.to_excel(writer, sheet_name="Tendencia_Anual", index=False)
     top_entidades.to_excel(writer, sheet_name="Top_Entidades", index=False)
 
-print(f"✅ Dataset generado: {output_path}")
+print(f" Dataset generado: {output_path}")
 print(f"   Total registros: {len(df)}")
 print(f"   Perú: {len(df[df['pais']=='Perú'])} | Ecuador: {len(df[df['pais']=='Ecuador'])}")
 print(f"   Rango años: {df['año'].min()} – {df['año'].max()}")
