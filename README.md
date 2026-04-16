@@ -1,104 +1,127 @@
-# 📊 MR & CT Market Intelligence — Perú & Ecuador (2020–2025)
+Aquí tienes una versión limpia, natural y lista para pegar directamente como `README.md` en GitHub:
 
-> **Context:** This project simulates the market analysis work done by a Product Specialist at a medical imaging company (e.g., Siemens Healthineers) to support tender responses and competitive intelligence for MRI and CT equipment procurement in Peru and Ecuador.
+---
 
-## 🎯 Objective
+# MR & CT Market Intelligence — Perú y Ecuador (2020–2025)
 
-Analyze public procurement data from Peru's SEACE and Ecuador's SERCOP to identify:
-- Market share by manufacturer (Siemens, GE, Philips, Canon)
-- Procurement trends by year, modality (MR/CT), and region
-- Top buying entities and average contract values
-- Win rates and competitive positioning
+## Contexto
 
-## 📁 Repository Structure
+Este proyecto simula el trabajo de análisis de mercado que realiza un Product Specialist en empresas de imagen médica (como Siemens Healthineers), enfocado en el soporte a licitaciones y análisis competitivo para equipos de resonancia magnética (MR) y tomografía computarizada (CT) en Perú y Ecuador.
+
+## Objetivo
+
+Analizar datos de contrataciones públicas provenientes de SEACE (Perú) y SERCOP (Ecuador) para entender el comportamiento del mercado de equipos de imagen médica.
+
+El análisis se centra en:
+
+* Participación de mercado por fabricante (Siemens, GE, Philips, Canon)
+* Tendencias de compra por año, modalidad (MR/CT) y región
+* Principales entidades compradoras y valores promedio de contrato
+* Tasas de adjudicación y posicionamiento competitivo
+
+---
+
+## Estructura del repositorio
 
 ```
 seace-imaging-market-analysis/
-├── generate_dataset.py          # Generates realistic dataset based on SEACE/SERCOP patterns
-├── build_excel_dashboard.py     # Builds formatted Excel + Power BI-ready workbook
-├── fetch_seace.py               # (Template) Real data fetcher from OSCE API
-├── fetch_sercop.py              # (Template) Real data fetcher from SERCOP API
+├── generate_dataset.py          # Genera dataset simulado basado en patrones reales
+├── build_excel_dashboard.py     # Construye dashboard en Excel listo para Power BI
+├── fetch_seace.py               # Plantilla para extracción de datos de SEACE
+├── fetch_sercop.py              # Plantilla para extracción de datos de SERCOP
 ├── data/
-│   ├── licitaciones_mr_ct.xlsx                      # Raw dataset (180 records)
-│   └── MR_CT_Market_Analysis_Peru_Ecuador.xlsx       # Final dashboard workbook
+│   ├── licitaciones_mr_ct.xlsx
+│   └── MR_CT_Market_Analysis_Peru_Ecuador.xlsx
 └── README.md
 ```
 
-## 📊 Key Findings (2020–2025 Sample)
+---
 
-| Metric | Value |
-|--------|-------|
-| Total tenders analyzed | 180 |
-| Total procurement value | ~$163M USD |
-| Award rate | ~90% |
-| Countries | Perú, Ecuador |
-| Equipment types | MRI 1.5T, MRI 3T, CT 64-slice, CT 128-slice, CT 256-slice |
+## Resultados principales (2020–2025)
 
-### Market Share (Awarded Tenders)
-| Manufacturer | Tenders Won | Share |
-|---|---|---|
-| Siemens Healthineers | 52 | ~32% |
-| Philips Healthcare | 50 | ~30% |
-| GE Healthcare | 40 | ~25% |
-| Canon Medical | 20 | ~12% |
+* 180 procesos de contratación analizados
+* Aproximadamente 163 millones USD en valor total
+* Tasa de adjudicación cercana al 90%
+* Cobertura: Perú y Ecuador
+* Equipos analizados: MRI (1.5T, 3T) y CT (64, 128, 256 cortes)
 
-## 🗂️ Excel Workbook Structure
+### Participación de mercado (procesos adjudicados)
 
-The output Excel file contains 5 sheets:
-
-1. **Resumen_Ejecutivo** — KPI summary + market share table + yearly trend
-2. **Analisis_Competitivo** — Siemens vs competitors, win rates, country breakdown
-3. **Graficos** — Embedded charts (pie market share, bar chart MR vs CT by year)
-4. **Datos_Licitaciones** — Clean dataset with auto-filter and freeze panes (Power BI source)
-5. **Guia_PowerBI** — Step-by-step instructions to connect to Power BI Desktop
-
-## 🔌 Connecting to Power BI
-
-1. Open Power BI Desktop → Get Data → Excel
-2. Select this file → check `Datos_Licitaciones` sheet
-3. Load data and create visuals:
-   - Bar chart: Winning brand vs. # tenders (filter by country)
-   - Pie chart: Market share %
-   - Line chart: Yearly trend MR vs CT
-   - Cards: Total tenders, total value, Siemens share %
-   - Slicer filters: Country, Year, Modality, Status
-4. Publish to Power BI Service → embed link in portfolio
-
-## 🌐 Using Real Data
-
-To replace the simulated dataset with real procurement data:
-
-**Peru (SEACE/OSCE):**
-```
-https://contratacionesabiertas.osce.gob.pe/
-Search keywords: "resonancia magnética", "tomógrafo", "equipo de imagen"
-Download: CSV or XLSX format
-```
-
-**Ecuador (SERCOP):**
-```
-https://datosabiertos.compraspublicas.gob.ec/PLATAFORMA/datos-abiertos
-Filter by: "equipos médicos", "imagenología"
-Download: CSV or JSON format
-```
-
-Replace `data/licitaciones_mr_ct.xlsx` (sheet `Datos_Licitaciones`) keeping the same column names.
-
-## 🛠️ Requirements
-
-```bash
-pip install pandas openpyxl xlsxwriter numpy
-```
-
-## 📌 Skills Demonstrated
-
-- Public procurement data analysis (OCDS standard — Perú & Ecuador)
-- Market intelligence for medical imaging equipment
-- Excel dashboard design with professional formatting
-- Power BI data modeling
-- Python data pipeline (pandas)
-- Competitive analysis: Siemens vs GE vs Philips vs Canon
-- Technical knowledge: MRI field strength (1.5T/3T), CT slice count
+| Fabricante           | Procesos ganados | Participación |
+| -------------------- | ---------------- | ------------- |
+| Siemens Healthineers | 52               | ~32%          |
+| Philips Healthcare   | 50               | ~30%          |
+| GE Healthcare        | 40               | ~25%          |
+| Canon Medical        | 20               | ~12%          |
 
 ---
-*Data in this repository is simulated based on real procurement patterns from SEACE and SERCOP public records. For real data, see the data sources above.*
+
+## Dashboard en Excel
+
+El archivo `MR_CT_Market_Analysis_Peru_Ecuador.xlsx` contiene:
+
+* **Resumen_Ejecutivo**: KPIs principales, participación de mercado y tendencias
+* **Analisis_Competitivo**: comparación entre fabricantes y tasas de adjudicación
+* **Graficos**: visualizaciones (market share, evolución MR vs CT)
+* **Datos_Licitaciones**: base limpia para análisis y conexión con Power BI
+* **Guia_PowerBI**: instrucciones para replicar el dashboard
+
+---
+
+## Integración con Power BI
+
+1. Abrir Power BI Desktop
+2. Get Data → Excel
+3. Seleccionar la hoja `Datos_Licitaciones`
+4. Crear visualizaciones:
+
+   * Barras: fabricante vs número de adjudicaciones
+   * Pie chart: participación de mercado
+   * Línea: tendencia anual MR vs CT
+   * Cards: total de procesos, valor total, participación Siemens
+5. Agregar filtros: país, año, modalidad, estado
+6. Publicar en Power BI Service
+
+---
+
+## Uso con datos reales
+
+Para reemplazar el dataset simulado:
+
+**Perú (SEACE / OSCE):**
+[https://contratacionesabiertas.osce.gob.pe/](https://contratacionesabiertas.osce.gob.pe/)
+Buscar: “resonancia magnética”, “tomógrafo”, “equipos de imagen”
+
+**Ecuador (SERCOP):**
+[https://datosabiertos.compraspublicas.gob.ec/PLATAFORMA/datos-abiertos](https://datosabiertos.compraspublicas.gob.ec/PLATAFORMA/datos-abiertos)
+Filtrar por equipos médicos o imagenología
+
+Mantener la misma estructura de columnas para asegurar compatibilidad con el dashboard.
+
+---
+
+## Requisitos
+
+```bash
+pip install pandas numpy openpyxl xlsxwriter
+```
+
+---
+
+## Herramientas utilizadas
+
+* Python (pandas, numpy)
+* Excel (dashboard)
+* Power BI (visualización)
+
+---
+
+## Habilidades demostradas
+
+* Análisis de datos de contrataciones públicas
+* Inteligencia de mercado en imagen médica (MR/CT)
+* Diseño de dashboards en Excel y Power BI
+* Análisis competitivo entre fabricantes
+* Construcción de pipelines de datos con Python
+
+---
