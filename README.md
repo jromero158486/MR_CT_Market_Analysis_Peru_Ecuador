@@ -1,7 +1,3 @@
-Aquí tienes una versión limpia, natural y lista para pegar directamente como `README.md` en GitHub:
-
----
-
 # MR & CT Market Intelligence — Perú y Ecuador (2020–2025)
 
 ## Contexto
