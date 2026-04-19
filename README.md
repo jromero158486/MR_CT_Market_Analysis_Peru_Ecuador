@@ -59,7 +59,7 @@ Del análisis de los datos se observa que:
 
 ### Figura 1. Dashboard general
 
-[Dashboard general](assets/Market.jpg)
+![Dashboard general](assets/Market.jpg)
 
 **Figura 1.** Vista general del dashboard. Se presentan indicadores principales como monto adjudicado, número de licitaciones, tasa de adjudicación y ticket promedio, junto con filtros por país, año y modalidad.
 
@@ -67,7 +67,7 @@ Del análisis de los datos se observa que:
 
 ### Figura 2. Análisis competitivo
 
-[Análisis competitivo](assets/Competencia.jpg)
+![Análisis competitivo](assets/Competencia.jpg)
 
 **Figura 2.** Participación de mercado por fabricante, volumen de contratos ganados y nivel de competencia promedio por proceso de licitación.
 
