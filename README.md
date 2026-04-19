@@ -1,4 +1,4 @@
-# 📊 Análisis de Mercado — Equipos de Imagen Médica (MR & CT)
+# Análisis de Mercado — Equipos de Imagen Médica (MR & CT)
 ### Licitaciones Públicas: Perú (SEACE) & Ecuador (SERCOP) | 2020–2025
 
 > **Contexto académico:** Proyecto desarrollado en el marco del curso de Proyectos de Inversión Pública (UNMSM). Analiza datos reales de procesos de adquisición pública de equipos de imagen médica (MR y CT) para identificar tendencias de mercado, patrones de compra y posicionamiento competitivo de los principales fabricantes en la región.
