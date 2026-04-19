@@ -3,7 +3,7 @@
 
 > **Contexto académico:** Proyecto desarrollado en el marco del curso de Proyectos de Inversión Pública (UNMSM). Analiza datos reales de procesos de adquisición pública de equipos de imagen médica (MR y CT) para identificar tendencias de mercado, patrones de compra y posicionamiento competitivo de los principales fabricantes en la región.
 
-🔗 **[Ver dashboard en Power BI](https://app.powerbi.com/TU-LINK-AQUI)**
+🔗 **[Ver dashboard en Power BI]([https://app.powerbi.com/TU-LINK-AQUI](https://app.powerbi.com/groups/me/reports/0c3bee40-5bfe-4530-8ae2-a0c9532a7501?ctid=717b9a79-1b91-41ab-a6f7-a579b46a9b41&pbi_source=linkShare))**
 
 ---
 
