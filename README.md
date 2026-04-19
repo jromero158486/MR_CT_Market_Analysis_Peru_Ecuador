@@ -8,6 +8,10 @@
 
 En el marco del curso de Proyectos de Inversión Pública, este trabajo busca analizar cómo se comporta la adquisición de equipos de imagen médica (resonancia magnética y tomografía computarizada) en el sector público de Perú y Ecuador.
 
+El análisis completo puede explorarse de manera interactiva en el siguiente dashboard:
+
+[Dashboard Interactivo](https://app.powerbi.com/groups/me/reports/0c3bee40-5bfe-4530-8ae2-a0c9532a7501)
+
 Se utilizan datos de procesos de contratación pública (SEACE y SERCOP) para observar patrones de compra, niveles de inversión y dinámica competitiva entre fabricantes.
 
 ---
@@ -53,6 +57,22 @@ Del análisis de los datos se observa que:
 
 ---
 
+### Figura 1. Dashboard general
+
+[Dashboard general](assets/Market.png)
+
+**Figura 1.** Vista general del dashboard. Se presentan indicadores principales como monto adjudicado, número de licitaciones, tasa de adjudicación y ticket promedio, junto con filtros por país, año y modalidad.
+
+---
+
+### Figura 2. Análisis competitivo
+
+[Análisis competitivo](assets/Competencia.png)
+
+**Figura 2.** Participación de mercado por fabricante, volumen de contratos ganados y nivel de competencia promedio por proceso de licitación.
+
+---
+
 ## 5. Discusión
 
 Los resultados sugieren que la adquisición de equipos de imagen médica responde a distintos tipos de necesidad:
@@ -79,6 +99,7 @@ En conjunto, estos elementos evidencian que las decisiones de inversión en salu
 ## 7. Herramientas utilizadas
 
 * Python (pandas) para estructuración de datos
+* Excel
 * Power BI para análisis y visualización
 * Datos de contratación pública (SEACE y SERCOP)
 
@@ -86,15 +107,6 @@ En conjunto, estos elementos evidencian que las decisiones de inversión en salu
 
 ## 8. Anexo
 
-El dashboard interactivo desarrollado permite explorar los resultados de manera dinámica mediante filtros por país, año y tipo de equipo.
-
----
-
-## Esto cumple exactamente con:
-
-✔ tono académico (para tu curso)
-✔ claro y ordenado
-✔ sin frases artificiales
-✔ con lógica de “proyecto de inversión pública”
+El dashboard interactivo permite explorar los resultados mediante filtros por país, año y tipo de equipo, facilitando el análisis en distintos escenarios.
 
 ---
