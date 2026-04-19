@@ -386,5 +386,5 @@ for col in ws_data.columns:
 # ── Guardar ─────────────────────────────────────────────────────────────────
 out = "data/MR_CT_Market_Analysis_Peru_Ecuador.xlsx"
 wb.save(out)
-print(f"✅ Excel profesional guardado: {out}")
+print(f" Excel profesional guardado: {out}")
 print("   Hojas: Resumen_Ejecutivo | Analisis_Competitivo | Graficos | Datos_Licitaciones | Guia_PowerBI")
