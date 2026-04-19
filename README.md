@@ -10,12 +10,12 @@
 ## Dashboard
 
 ### Página 1 — Market Intelligence Overview
-![Market Intelligence Dashboard — Perú & Ecuador](assets/Market Intelligence Dashboard — Perú & Ecuador.JPG)
+![Market Intelligence Dashboard — Perú & Ecuador](assets/Market.jpg)
 
 *KPIs principales: monto total adjudicado, número de licitaciones, tasa de éxito y ticket promedio. Filtros por año, país y modalidad (MR/CT).*
 
 ### Página 2 — Análisis Competitivo
-![Análisis Competitivo — Participación de Mercado](assets/Análisis Competitivo — Participación de Mercado.JPG)
+![Análisis Competitivo — Participación de Mercado](assets/Competencia.jpg)
 
 *Participación de mercado por fabricante (USD adjudicado), volumen de contratos ganados y nivel de competencia promedio por licitación.*
 
