@@ -1,5 +1,5 @@
 """
-generate_dataset.py — v2
+generate_dataset.py
 Marcas genéricas: Marca A / B / C / D
 Sin columna modelo_ganador (evita identificación por modelo)
 """
@@ -162,5 +162,5 @@ with pd.ExcelWriter("data/licitaciones_mr_ct.xlsx", engine="openpyxl") as w:
     tendencia.to_excel(w, sheet_name="Tendencia_Anual", index=False)
     top_entidades.to_excel(w, sheet_name="Top_Entidades", index=False)
 
-print(f"✅ Dataset generado: data/licitaciones_mr_ct.xlsx ({len(df)} registros)")
+print(f"Dataset generado: data/licitaciones_mr_ct.xlsx ({len(df)} registros)")
 print(market_share.groupby("marca_ganadora")["licitaciones_ganadas"].sum().sort_values(ascending=False))
